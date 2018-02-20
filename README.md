@@ -2,26 +2,19 @@
 
 > a simple viewer for yandex disk
 
-## Build Setup
+## Инструкция по запуску приложения
 
 ``` bash
-# install dependencies
+# Установка зависимостей
 npm install
 
-# serve with hot reload at localhost:8080
+# Инициализация базы данных
+npm run db-init
+
+# Запуск сервера node.js
+node app.js
+
+# Запуск клиента
 npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run all tests
-npm test
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
